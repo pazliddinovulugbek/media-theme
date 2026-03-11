@@ -73,7 +73,33 @@ main section:nth-child(2) img{
 
 
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    background: green;
+    margin-top: 220px;
+}
 
+footer article h1{
+    font-size: 33px;
+font-family: sans-serif;
+color: white;
+}
+
+footer article p{
+    font-size: 15px;
+    font-family: cursive;
+    color: white;
+    margin-top: 20px;
+}
+
+
+footer article{
+    width: 300px;
+}
 
 
 
@@ -131,6 +157,22 @@ main section:nth-child(2) img{
     border-radius: 10px;
     margin-top: 30px;
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer article{
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+
 
 }
 
