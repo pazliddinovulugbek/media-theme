@@ -84,7 +84,60 @@ main section:nth-child(2) img{
 
 
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:450px){
+    nav ul{
+        display: none;
+    }
+    nav h1{
+        font-size: 33px;
+    }
+    nav svg{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    main section:nth-child(1){
+    width: 350px;
+    text-align: center;
+}
+main section:nth-child(1) h1{
+    font-size: 44px;
+    font-family: cursive;
+    color: green;
+}
+main section:nth-child(1) p{
+    color: green;
+    font-family: cursive;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+main section:nth-child(2) img{
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width:450px){
     nav ul{
         display: none;
     }
