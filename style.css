@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background: green;
+}
+
+nav h1{
+    font-size: 44px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: fantasy;
+    color: white;
+}
+
+nav svg{
+    cursor: pointer;
+    display: none;
+}
+
+
+@media only screen and (max-width:400px){
+    nav ul{
+        display: none;
+    }
+    nav h1{
+        font-size: 33px;
+    }
+    nav svg{
+        display: block;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+}
